@@ -13,7 +13,9 @@ class NewPasswordForm extends Component {
                 <Password placeholder="" id="password" width="new_password_width"/>   
                 <label for="password" class="new_password_label">Confirmer le mot de passe</label>
                 <Password id="confirmPassword" placeholder="" width="new_password_width"/>   
-                <Button key="2" width="form-width" height="form-height" backgroundColor="bg-aqua" textStyle="white" text="Enregistrer" alignment="center" />
+                <div class="new_password_button_right">
+                    <Button key="2" width="form-width" height="form-height" backgroundColor="bg-aqua" textStyle="white" text="Enregistrer" alignment="center" />
+                </div>
             </form>
         );
     }
