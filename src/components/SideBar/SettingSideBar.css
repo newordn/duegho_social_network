@@ -1,0 +1,15 @@
+.settingSideBar
+{
+    display: flex;
+    flex-flow: column wrap;
+}
+button
+{
+    margin-bottom: 0.1rem;
+}
+h1
+{
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #000000;
+}
