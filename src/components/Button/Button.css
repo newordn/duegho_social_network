@@ -1,0 +1,60 @@
+button
+{
+  
+  border-radius: 2px;
+  background-color: #ffffff;
+  border:none;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.16);
+    outline: none;
+}
+.sidebar-height
+{
+    height: 2.3rem;
+}
+.sidebar-width
+{
+  width: 18rem;  
+}
+.form-width
+{
+  width: 7.5rem;
+}
+.form-height
+{
+  height: 2.25rem;
+}
+.form-title-width
+{       
+    width: 35rem;
+ }
+
+.form-title-height
+{ 
+    height: 3rem;
+}
+.left
+{
+    text-align: left;
+}
+.bg-aqua
+{
+    background-color: #1cc3ea;
+}
+.new_password-header-style
+{
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #000000;
+}
+.white
+{
+    color:white;
+}
+.bg-white
+{
+    background-color:white;
+}
+.aqua
+{
+    color:#1cc3ea;
+}
