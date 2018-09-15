@@ -15,7 +15,7 @@ class Header extends Component {
                     <i className="material-icons">email</i>
                     <img alt="Avatar" className="user_avatar"
                     src={this.props.user_avatar}/>
-                    <span>{this.props.user_name}</span>
+                    <span className="user_name">{this.props.user_name}</span>
                     <i className="material-icons">keyboard_arrow_down</i>
                 </div>
              </header>

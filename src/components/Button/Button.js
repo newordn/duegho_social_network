@@ -6,7 +6,7 @@ class Button extends Component
     constructor(props)
     {
         super(props);
-        this.state = {clickedHighlight:false};
+        this.state = {clickedHighlight:this.props.clickedHighlight};
         this.handleClick = this.handleClick.bind(this);  
         this.handleBlur = this.handleBlur.bind(this);  
     }
@@ -33,7 +33,12 @@ class Button extends Component
     static propTypes=
     {
         textStyle: PropTypes.string,
-        
+        alignment: PropTypes.string,
+        clickedHighlight: PropTypes.bool  
+    }
+    static defaultProps=
+    {
+            clickedHighlight:false,
     }
 }
 

@@ -8,7 +8,7 @@ class SettingSideBar extends Component {
             , "Notifications", "Comptes bloqués"];
             
         return (
-            <div class="settingSideBar">
+            <div className="settingSideBar">
                 <h1>Settings</h1>
                 {arr.map((e,i)=>{ 
                     return <Button key={i} width="sidebar-width" height="sidebar-height" backgroundColor="bg-white" text={e} alignment="left"/>

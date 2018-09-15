@@ -6,6 +6,7 @@ button
   border:none;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.16);
     outline: none;
+    
 }
 .sidebar-height
 {
@@ -22,6 +23,7 @@ button
 .form-height
 {
   height: 2.25rem;
+    line-height: 2.25rem;
 }
 .form-title-width
 {       
@@ -31,6 +33,11 @@ button
 .form-title-height
 { 
     height: 3rem;
+    line-height: 3rem;
+}
+.button-center
+{
+    text-align: center;
 }
 .left
 {
@@ -42,7 +49,7 @@ button
 }
 .new_password-header-style
 {
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   font-weight: 900;
   color: #000000;
 }

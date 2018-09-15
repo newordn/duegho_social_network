@@ -29,9 +29,13 @@ div
     width: 2rem;
     height:2rem;
 }
+.user_name
+{
+    font-size:0.75rem;
+}
 i
 {
     display: inline-block;
     margin-right: 0.7rem;
-    color: black;
+    color: rgb(170,170,170);
 }

@@ -1,0 +1,14 @@
+.container
+{
+    display:flex;
+    flex-flow: row;
+    justify-content:space-between;
+    align-items: center;
+    margin-left:3rem;
+}
+
+.container__form
+{
+    margin-left:5rem;
+    margin-top:6.5rem;
+}

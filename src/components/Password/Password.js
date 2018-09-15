@@ -34,7 +34,7 @@ class Password extends Component
 	 {
 		return(
 			<Input id={this.props.password} name="password" width={this.props.width}
-		type="text" placeholder={this.props.placeholder} style="form__input" 
+		type="text" placeholder={this.props.placeholder} 
 		onChange={this.onChange} errorBorderColor={this.state.errorBorderColor}
 		errorMessage={this.state.errorMessage} showError={this.state.showError}/>
 	);
