@@ -31,7 +31,7 @@ class Input extends Component
 	 render()
 	 {
 	 	return(
-	 		<div>
+	 		<div className="input_container">
 		 		<input id={this.props.id}
 		 		 type={this.props.type} 
 		 		 placeholder={this.props.placeholder}
@@ -42,8 +42,6 @@ class Input extends Component
 		 		 <label className="input__label" htmlFor={this.props.id} display={this.state.errorMessage[0]}>
 		 		 	{this.state.errorMessage[1]}
 		 		 </label>
-
-
 		 	</div>
 
 	 		);
@@ -65,7 +63,8 @@ static propTypes =
 };
 static defaultProps=
 {
-	showError: "none"
+	showError: "none",
+	width: "width"
 }
 }
 

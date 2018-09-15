@@ -34,7 +34,8 @@ class Button extends Component
     {
         textStyle: PropTypes.string,
         alignment: PropTypes.string,
-        clickedHighlight: PropTypes.bool  
+        clickedHighlight: PropTypes.bool,
+        width: PropTypes.string  
     }
     static defaultProps=
     {
