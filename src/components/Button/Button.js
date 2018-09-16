@@ -8,15 +8,14 @@ class Button extends Component
         super(props);
         this.state = {clickedHighlight:this.props.clickedHighlight};
         this.handleClick = this.handleClick.bind(this);  
-        this.handleBlur = this.handleBlur.bind(this);  
     }
-    handleClick()
+    handleClick(id)
     {
-        this.setState({clickedHighlight:true});
+    this.props.onClick(id);// we are calling high level component onClick method
     }
-    handleBlur()
+    componentWillReceiveProps(nextProps)
     {
-        this.setState({ clickedHighlight: false });
+        this.setState({clickedHighlight:nextProps.clickedHighlight});
     }
     render()
     {
@@ -26,20 +25,24 @@ class Button extends Component
         else
         higlight ="";
         let classValues = higlight + " "+ this.props.textStyle+ " " +  this.props.backgroundColor + " " +  this.props.alignment + " " + this.props.width+ " "+ this.props.height;
-        return(
-            <button className={classValues} onBlur={this.handleBlur} onClick={this.handleClick}>{this.props.text}</button>
-        );
+         return <button id={this.props.id} className={classValues}  onClick={()=>{this.handleClick(this.props.id)}}>{this.props.text}</button>
+               
+            
     }
     static propTypes=
     {
         textStyle: PropTypes.string,
         alignment: PropTypes.string,
         clickedHighlight: PropTypes.bool,
-        width: PropTypes.string  
+        width: PropTypes.string,
+        onClick: PropTypes.func,
+        backgroundColor: PropTypes.string   
     }
     static defaultProps=
     {
             clickedHighlight:false,
+            onClick:()=>{},
+            setFocus:false
     }
 }
 

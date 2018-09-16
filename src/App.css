@@ -3,12 +3,17 @@
     display:flex;
     flex-flow: row;
     justify-content:space-between;
-    align-items: center;
+    align-items: flex-start;
     margin-left:3rem;
+    height: 100%;
 }
-
 .container__form
 {
+    height: 100%;
     margin-left:5rem;
-    margin-top:6.5rem;
+    align-items: flex-start;
+}
+.container__form .new_password
+{
+    margin-top:5rem;
 }
