@@ -8,6 +8,16 @@ button
   outline: none;
     
 }
+.friendProposition-width
+{
+    width:2.3rem;
+}
+
+.friendProposition-height
+{
+    height:2rem;
+    line-height: 2rem;
+}
 .sidebar-height
 {
     height: 2.3rem;

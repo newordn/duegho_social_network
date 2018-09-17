@@ -1,0 +1,26 @@
+.friendProposition
+{
+    display: flex;
+    flex-flow:column wrap;
+    justify-content: space-between;
+    width: 20%;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 1rem 1rem 1rem 1rem;
+   
+}
+.friendProposition_item
+{
+    flex-flow: row wrap;
+    width: 100%;
+}
+.friendProposition_user_name
+{
+    font-size: 0.80rem;
+  font-weight: bold;
+  line-height: 1.29;
+  letter-spacing: normal;
+  color: #95989a;
+  margin-left:0.3rem;
+  margin-right:2rem;
+}

@@ -36,6 +36,8 @@ class Button extends Component
         clickedHighlight: PropTypes.bool,
         width: PropTypes.string,
         onClick: PropTypes.func,
+        height:PropTypes.string,
+        text: PropTypes.string,
         backgroundColor: PropTypes.string   
     }
     static defaultProps=
