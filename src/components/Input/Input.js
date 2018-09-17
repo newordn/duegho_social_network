@@ -1,6 +1,7 @@
 import React,{Component} from 'react';
 import PropTypes from 'prop-types';
 import './Input.css';
+import Label from '../Label/Label';
 
 // the basic input, that will be the mother 
 // class of every other
@@ -11,7 +12,7 @@ class Input extends Component
 	 	super(props);
 	 	this.onChange= this.onChange.bind(this);
 		 this.state = {
-			 inputText: '', inputStyle: ["form__input",
+			 inputText: '', inputStyle: [this.props.inputStyle,
 	 	this.props.errorBorderColor,this.props.width],errorMessage:[this.props.showError,this.props.errorMessage]};
 	 }
 
@@ -32,6 +33,7 @@ class Input extends Component
 	 {
 	 	return(
 	 		<div className="input_container">
+				<Label id={this.props.id} withLabel={this.props.withLabel} labelStyle={this.props.labelStyle} label={this.props.label} />
 		 		<input id={this.props.id}
 		 		 type={this.props.type} 
 		 		 placeholder={this.props.placeholder}
@@ -56,7 +58,11 @@ static propTypes =
 	errorBorderColor : PropTypes.string,
 	width: PropTypes.string,
 	showError: PropTypes.string,
-	errorMessage: PropTypes.string
+	errorMessage: PropTypes.string,
+	withLabel : PropTypes.string,
+	labelStyle: PropTypes.string,
+	label: PropTypes.string,
+	inputStyle: PropTypes.string
 
 
 
@@ -64,7 +70,7 @@ static propTypes =
 static defaultProps=
 {
 	showError: "none",
-	width: "width"
+	inputStyle: "form__input"
 }
 }
 

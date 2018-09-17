@@ -42,7 +42,8 @@ class Button extends Component
     {
             clickedHighlight:false,
             onClick:()=>{},
-            setFocus:false
+            setFocus:false,
+            width:"width"
     }
 }
 

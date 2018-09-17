@@ -32,6 +32,11 @@ div
 .user_name
 {
     font-size:0.75rem;
+    cursor: pointer;
+}
+.material-icons,.user_name
+{
+    cursor: pointer;
 }
 i
 {

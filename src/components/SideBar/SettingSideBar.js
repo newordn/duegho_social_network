@@ -23,9 +23,15 @@ class SettingSideBar extends Component {
             , "Notifications", "Comptes bloqués"];
         let redirection;
         if(this.state.clickedHighlight[0])
-                redirection= <Redirect to="/compte" />
+                redirection= <Redirect to="/setting/compte" push/>
+        else if (this.state.clickedHighlight[1])
+            redirection = <Redirect to="/setting/confidentiality" push />
         else if (this.state.clickedHighlight[2])
-            redirection = <Redirect to="/new_password" />
+            redirection = <Redirect to="/setting/new_password" push/>
+        else if (this.state.clickedHighlight[3])
+            redirection = <Redirect to="/setting/notifications" push/>
+        else if (this.state.clickedHighlight[4])
+            redirection = <Redirect to="/setting/lock_accounts" push/>
         return (
             <div className="settingSideBar">
                 {redirection}

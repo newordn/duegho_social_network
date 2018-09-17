@@ -33,8 +33,8 @@ class Password extends Component
 	 render()
 	 {
 		return(
-			<Input id={this.props.password} name="password" width={this.props.width}
-		type="text" placeholder={this.props.placeholder} 
+			<Input label={this.props.label}  withLabel={this.props.withLabel} id={this.props.password} name="password" width={this.props.width}
+				type="text" name={this.props.name} placeholder={this.props.placeholder} 
 		onChange={this.onChange} errorBorderColor={this.state.errorBorderColor}
 		errorMessage={this.state.errorMessage} showError={this.state.showError}/>
 	);
@@ -42,11 +42,14 @@ class Password extends Component
 	static propTypes=
 	{
 		password : PropTypes.string,
+		label: PropTypes.string,
+		withLabel: PropTypes.string
 	}
 	static defaultProps=
 	{
 		id:"",
 			placeholder: "Mot de passe"
+
 	}
 }
 

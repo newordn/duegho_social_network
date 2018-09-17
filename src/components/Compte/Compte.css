@@ -1,0 +1,31 @@
+.compte_container
+{
+    width:32rem;
+    margin-top: 2.5rem;
+}
+.compte_form
+{
+    width:100%;
+    padding: 1rem 1rem 0rem 1rem;
+}
+.profil_link
+{
+    font-size: 0.75rem;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #95989a;
+}
+.localisation
+{
+    font-size: 1.25rem;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.9;
+  letter-spacing: normal;
+  color: #95989a;
+}

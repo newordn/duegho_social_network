@@ -25,6 +25,10 @@ button
   height: 2.25rem;
     line-height: 2.25rem;
 }
+.width
+{
+    width: 100%;
+}
 .form-title-width
 {       
     width: 35rem;

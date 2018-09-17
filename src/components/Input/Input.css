@@ -11,7 +11,6 @@
     --input-label-color: #ff2c41;
   }
 
-/* font */
 .search_bar_width
 {
   width:25rem;
@@ -32,12 +31,16 @@
   box-sizing: border-box;
   font-family: poppins-regular;
   outline: none;
-  margin-bottom: var(--input-margin-bottom-label)
+  margin-bottom: var(--input-margin-bottom-label);
+  width:100%;
 }
-.width
+.input_container
 {
-  width:inherit;
+   display: flex;
+    flex-flow: column wrap;
+   align-items: flex-start;
 }
+
 ::placeholder
 {
 	color: var(--input-placeholder-color);
