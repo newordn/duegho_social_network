@@ -1,12 +1,12 @@
 button
-{
-  
+{ 
   border-radius: 2px;
   background-color: #ffffff;
   border:none;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.16);
   outline: none;
-    
+  box-sizing: border-box;
+  padding: 0.5rem;   
 }
 .friendProposition-width
 {
@@ -17,6 +17,15 @@ button
 {
     height:2rem;
     line-height: 2rem;
+}
+.changeProfil-width
+{
+    width:8.5rem;
+}
+.changeProfil-height
+{
+    height:2.25rem;
+    line-height: 2.25rem;
 }
 .sidebar-height
 {
@@ -70,6 +79,10 @@ button
 .white
 {
     color:white;
+}
+.gray
+{
+    color: rgb(200,200,200);
 }
 .bg-white
 {

@@ -1,0 +1,21 @@
+.follow
+{
+    display:flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+.follow_label
+{
+    font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1.67;
+  letter-spacing: normal;
+  color: #000000;
+}
+.follow_number
+{
+    font-size: 1rem;
+  font-weight: bold;
+  line-height: 1.25;
+}
