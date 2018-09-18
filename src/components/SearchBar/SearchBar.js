@@ -8,16 +8,12 @@ class SearchBar extends Component {
     render()
     {
         return(
-           <Input id="searchBar" width={this.props.width} type="text" placeholder={this.props.placeholder} name={this.props.name} />
+           <Input width="20rem" id="searchBar"  type="text" placeholder={this.props.placeholder} name={this.props.name} />
         )
     }
     static propTypes =
     {
         placeholder: PropTypes.string
-    }
-    static defaultProps=
-    {
-        width: "search_bar_width"
     }
 }
 

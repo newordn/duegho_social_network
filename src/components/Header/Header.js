@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import SearchBar from '../SearchBar/SearchBar';
-import './Header.css';
 import {Link} from 'react-router-dom';
+import './Header.css';
 
 class Header extends Component {
 

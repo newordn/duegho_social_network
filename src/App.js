@@ -12,7 +12,7 @@ class App extends Component {
         return (
             <Router>
                 <div class="app">
-                <Header user_name="Duegho" user_avatar="/imgs/0.png" />
+                <div class="margin-bottom"><Header user_name="Duegho" user_avatar="/imgs/0.png" /></div>
                             <Switch>
                                 {/*Routes*/}
                                 <Route path="/profile" component={Profile} />

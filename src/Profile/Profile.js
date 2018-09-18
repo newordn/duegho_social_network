@@ -12,7 +12,7 @@ class Profile extends Component {
 
     render() {
         let infos = [{ icon: "location_on", label: "Paradise Island" }, 
-        { icon: "", label: "titan-assaillant.com" }
+        { icon: "link", label: "titan-assaillant.com" }
             , { icon: "save", label: "August 27th 2018" }
             , { icon: "info", label: "March 30th 1998" }]
         let publications = [{user_name:"Bruce Banner",
@@ -34,11 +34,13 @@ class Profile extends Component {
                     </div>
                     <div class="section1_col_2 section1_friendProposition">
                         <FriendProposition/>
-                        <Button alignment="center" backgroundColor="bg-white" text="À propos 
-                        • Developpeurs • 
-                        Publicités • Blog 
-                        • Confidentialité • Conditions d'utilisation" textStyle="gray" alignment="left">
-                        </Button>
+                        <div class="margin-top">
+                            <Button alignment="center" backgroundColor="bg-white" text="À propos 
+                            • Developpeurs • 
+                            Publicités • Blog 
+                            • Confidentialité • Conditions d'utilisation" textStyle="gray" alignment="left">
+                            </Button>
+                        </div>
                     </div>
                 </section>
                 <section className="section2">

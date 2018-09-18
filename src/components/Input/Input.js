@@ -13,7 +13,7 @@ class Input extends Component
 	 	this.onChange= this.onChange.bind(this);
 		 this.state = {
 			 inputText: '', inputStyle: [this.props.inputStyle,
-	 	this.props.errorBorderColor,this.props.width],errorMessage:[this.props.showError,this.props.errorMessage]};
+	 	this.props.errorBorderColor],errorMessage:[this.props.showError,this.props.errorMessage]};
 	 }
 
 	 onChange(e)
@@ -34,7 +34,7 @@ class Input extends Component
 	 	return(
 	 		<div className="input_container">
 				<Label id={this.props.id} withLabel={this.props.withLabel} labelStyle={this.props.labelStyle} label={this.props.label} />
-		 		<input id={this.props.id}
+				  <input id={this.props.id} style={{ width: this.props.width}}
 		 		 type={this.props.type} 
 		 		 placeholder={this.props.placeholder}
 		 		 name={this.props.name}

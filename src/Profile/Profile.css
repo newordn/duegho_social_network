@@ -71,6 +71,10 @@
     background-color: white;
     width:50%;
 }
+.section2_col_2 .publication
+{
+    margin-bottom: 1rem;
+}
 .section2_col_3
 {
     width:20%;
@@ -120,4 +124,8 @@
     border-radius: 2px;
     padding:0.3rem;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.16);
+}
+.margin-top
+{
+    margin-top:1rem;
 }
