@@ -10,6 +10,9 @@ class SearchBar extends Component {
            <Input id="searchBar" width="search_bar_width" type="text" placeholder="Rechercher sur Duegho" name="searchBar" />
         )
     }
+    static propTypes =
+    {
+    }
 }
 
 export default SearchBar;
