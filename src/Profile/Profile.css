@@ -3,9 +3,8 @@
     display: flex;
     flex-flow:column wrap;
     width: 100%;
-    height: 100%;
     padding: 1rem 5rem 0rem 5rem;
-    background-color:white; 
+    background-color:white;
 }
 
 .section1
@@ -47,4 +46,44 @@
     height: 100%;
     width: 100%;
     justify-content: space-between;
+}
+.section2
+{
+    display:flex;
+    flex-flow: row wrap;
+    width:100%;
+    background:white;
+    justify-content: space-between;
+    
+}
+.section2_col_1
+{
+    display:flex;
+    flex-flow: column wrap;
+    width:20%;
+    text-align: left;
+    align-items: flex-start;
+
+}
+.section2_col_2{
+    display:flex;
+    flex-flow: column wrap;
+    width:50%;
+    background-color: white;
+    height:10rem;
+}
+.section2_col_3
+{
+    width:20%;
+}
+.section2_col_1_info
+{
+    display:flex;
+    flex-flow: row wrap;
+    width:100%;
+    justify-content: flex-start;
+}
+.section2_col_2 .input_container
+{
+    width:100%;
 }

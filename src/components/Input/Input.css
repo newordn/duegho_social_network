@@ -68,3 +68,7 @@
 {
   margin-bottom:var(--space-between-block);
 }
+.default-width 
+{
+  width:100%;
+}

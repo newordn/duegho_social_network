@@ -70,7 +70,8 @@ static propTypes =
 static defaultProps=
 {
 	showError: "none",
-	inputStyle: "form__input"
+	inputStyle: "form__input",
+	width : "default-width"
 }
 }
 

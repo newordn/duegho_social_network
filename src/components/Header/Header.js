@@ -16,7 +16,7 @@ class Header extends Component {
               
             <header>
                  <h1 className="duegho">Duegho</h1>
-                <SearchBar/>    
+                <SearchBar placeholder="Rechercher sur Duegho" />    
                 <div>
                     <i className="material-icons">home</i>
                     <i className="material-icons">notifications_none</i>
