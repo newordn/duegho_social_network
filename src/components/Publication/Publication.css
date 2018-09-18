@@ -1,0 +1,11 @@
+.publication
+{
+    background-color:white;
+    border-radius: 2px;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.16);
+    width:100%;
+    padding:1rem 1rem 1rem 1rem;
+    display: flex;
+    flex-flow: column wrap;
+    box-sizing: border-box;
+}
