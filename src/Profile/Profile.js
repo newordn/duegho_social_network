@@ -27,6 +27,7 @@ class Profile extends Component {
                     <div class="section1_col_1">
                         <Img width="100%" src="/imgs/cover.png" alt="Cover Image"  round={false} />
                         <div class="section_col_1_footer">
+                            <div class="section1_col_1_user_avatar"><Img width="9.375rem" height="9.375rem" src="/imgs/profile.png" alt="Profile" round={true} /></div>
                         <Follow followers={true} />    
                         <Follow following={true}/>
                         <Button alignment="center" backgroundColor="bg-white" text="Modifier le profil" textStyle="gray" height="changeProfil-height" width="changeProfil-width" />
@@ -45,8 +46,8 @@ class Profile extends Component {
                 </section>
                 <section className="section2">
                     <div className="section2_col_1">
-                        <h3>Eren Jaeger</h3>
-                        <p>Lorem ipsum dolor sit amet 
+                        <h3 class="section2_col_1_user_name">Eren Jaeger</h3>
+                        <p class="section2_col_1_user_about">Lorem ipsum dolor sit amet 
                             consectetur adipisicing elit. 
                             Voluptates error explicabo placeat sed voluptas non quo.
                         </p>

@@ -3,7 +3,7 @@ import Setting from './Setting/Setting';
 import Profile from './Profile/Profile';
 import Header from './components/Header/Header';
 import './App.css';
-import { BrowserRouter as Router,Link, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router,Route, Switch } from 'react-router-dom';
 
 
 class App extends Component {
