@@ -20,6 +20,7 @@ header
   line-height: 1;
   letter-spacing: -1.9px;
   color: #1cc3ea;
+  font-family: poppins-blackItalic;
 }
 div
 {
@@ -31,12 +32,14 @@ div
 {
     width: 1.4rem;
     height:1.4rem;
-    line-height: 1.4rem;
+    position: relative;
+    top:0.1rem;
 }
 .user_name
 {
-    font-size:1rem;
+    font-size:0.825rem;
     cursor: pointer;
+  font-weight: 900;
 }
 .material-icons
 {

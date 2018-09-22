@@ -28,9 +28,13 @@ class Profile extends Component {
                         <Img width="100%" src="/imgs/cover.png" alt="Cover Image"  round={false} />
                         <div class="section_col_1_footer">
                             <div class="section1_col_1_user_avatar"><Img width="9.375rem" height="9.375rem" src="/imgs/profile.png" alt="Profile" round={true} /></div>
-                        <Follow followers={true} />    
-                        <Follow following={true}/>
+                        <div class="section_col_1_footer_follow">
+                            <Follow followers={true} />    
+                            <Follow following={true}/>
+                        </div>
+                        <div class="section1_col_1_change_button">
                         <Button alignment="center" backgroundColor="bg-white" text="Modifier le profil" textStyle="gray" height="changeProfil-height" width="changeProfil-width" />
+                            </div>
                         </div>
                     </div>
                     <div class="section1_col_2 section1_friendProposition">
@@ -59,7 +63,7 @@ class Profile extends Component {
                             </div>})}
                     </div>
                     <div className="section2_col_2">
-                        <div class="publication_searchBar"><Input id="publication" type="text" placeholder="Publier..." name={this.props.name} /></div>
+                        <div class="publication_searchBar"><Input id="publication" type="text" placeholder="Publier..." name={this.props.name} /><i class="material-icons insert_file">insert_photo</i></div>
                         {publications.map((e,i)=>{ 
                         let publicationKey = "publication" +i;
                         return <Publication user_name={e.user_name} key={publicationKey}

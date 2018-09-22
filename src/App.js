@@ -11,8 +11,8 @@ class App extends Component {
     render() {
         return (
             <Router>
-                <div class="app">
-                <div class="margin-bottom"><Header user_name="Duegho" user_avatar="/imgs/0.png" /></div>
+                <div className="app">
+                <div className="margin-bottom"><Header user_name="Duegho" user_avatar="/imgs/0.png" /></div>
                             <Switch>
                                 {/*Routes*/}
                                 <Route path="/profile" component={Profile} />

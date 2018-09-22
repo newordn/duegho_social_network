@@ -45,7 +45,7 @@
     flex-flow: row wrap;
     height: 4rem;
     width: 100%;
-    justify-content: space-between;
+    justify-content: flex-start;
     box-sizing: border-box;
     padding:1rem 2rem 1rem 2rem;
 }
@@ -125,6 +125,7 @@
 {
     background-color:white;
     width:100%;
+    background-blend-mode: multiply;
     box-sizing: border-box;
     margin-bottom:1rem;
     border-radius: 2px;
@@ -153,4 +154,16 @@
     position: relative;
     top:-4.5rem;
 }
-  
+.section_col_1_footer_follow
+{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 10rem;
+}
+.section1_col_1_change_button
+{
+    display:flex;
+    width:60%;
+    justify-content: flex-end;
+}
